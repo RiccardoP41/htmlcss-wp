@@ -19,17 +19,11 @@ body {
 .corpo {
     width: 60vw;
     margin: 10px auto;
-    /* da eliminare */
-    /* height: 100vh; */
-    /* background-color: red; */
-
 }
 
 header {
     width: 100%;
     font-family: 'Lexend Tera', sans-serif;
-    /* height: 30%; */
-
 }
 
 .sfondo{
@@ -101,19 +95,19 @@ li {
 
 aside {
     width: 25%;
-    /* height: 350px; */
     padding-top: 10px;
     float: left;
 }
 
-.contenitore {
-    height: 100%;
-}
 
 aside .contenitore {
     background-color: white;
     padding: 5px;
 
+}
+
+.sinistra h2{
+    display: inline;
 }
 
 .contenitore img {
@@ -150,19 +144,14 @@ main .contenitore {
 
 aside-destra {
     width: 25%;
-    /* height: 450px; */
     padding-top: 10px;
     float: left;
 
 }
 
-.contenitore-destra {
-    /* height: 100% */
-}
 
 .quadrato {
     width: 100%;
-    /* height: 50%; */
     padding-bottom: 10px;
 
 }

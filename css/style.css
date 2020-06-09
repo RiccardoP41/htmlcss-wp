@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/172296/pexels-photo-172296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.corpo {
+    width: 60vw;
+    margin: 10px auto;
+    /* da eliminare */
+    /* height: 100vh; */
+    /* background-color: red; */
+
+}
+
+header {
+    width: 100%;
+    font-family: 'Lexend Tera', sans-serif;
+    /* height: 30%; */
+
+}
+
+.sfondo{
+    height: 280px;
+    border: 5px solid white;
+    position: relative;
+
+}
+
+.sfondo img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+.titolo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border: 4px solid white;
+    padding: 4px 8px;
+    font-size: 20px;
+}
+
+.sottotitolo {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+}
+
+.logo{
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    z-index: 4
+
+}
+
+
+.menu {
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+}
+
+aside {
+    width: 25%;
+    /* height: 350px; */
+    padding-top: 10px;
+    float: left;
+}
+
+.contenitore {
+    height: 100%;
+}
+
+aside .contenitore {
+    background-color: white;
+    padding: 5px;
+
+}
+
+.contenitore img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+a {
+    padding: 5px 0;
+    display: block;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+
+main {
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+
+main .contenitore {
+    background-color: white;
+}
+
+.contenuto {
+    padding: 15px;
+}
+
+aside-destra {
+    width: 25%;
+    /* height: 450px; */
+    padding-top: 10px;
+    float: left;
+
+}
+
+.contenitore-destra {
+    /* height: 100% */
+}
+
+.quadrato {
+    width: 100%;
+    /* height: 50%; */
+    padding-bottom: 10px;
+
+}
+
+.contenitore-quadrato {
+    background-color: white;
+}
+
+
+
+.radius {
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    color: lightgrey;
+    background-color: white;
+}
+
+.social {
+    font-size: 30px;
+}
+
+.social i {
+    padding: 20px 80px;
+}
